@@ -124,7 +124,7 @@ resource "aws_security_group" "demosg" {
 
 # Creating key pair
 resource "aws_key_pair" "demokey" {
-  key_name   = "${demo-key}"
+  key_name   = "${demokey}"
   public_key = "${var.public_key}"
 }
   
